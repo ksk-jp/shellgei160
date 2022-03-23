@@ -1,0 +1,10 @@
+version: "3"
+services:
+  ubuntu:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: ubuntu
+    tty: true
+    # volumes:
+    #   - ./:/home/user/shellgei160/
